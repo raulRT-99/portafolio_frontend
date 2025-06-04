@@ -1,0 +1,88 @@
+/* 
+    FONT SIZES
+*/
+h1{
+    font-size: 35px;
+}
+h2{
+    font-size: 29px;
+}
+h3{
+    font-size: 23px;
+}
+h4{
+    font-size: 18px;
+}
+h5{
+    font-size: 12px;
+}
+h6{
+    font-size: 8px;
+}
+/* 
+    SPACING AND ALIGNMENT
+*/
+.spacing_small > *{
+    margin: 0.1em;
+}
+.spacing_very_small > *{
+    margin: 0px;
+}
+.left_align > *{
+    text-align: left;
+}
+.right_align > *{
+    text-align: right;
+}
+li{
+    text-align: left;
+}
+.margin_body{
+    margin: 1rem;
+}
+/* 
+    COLORS
+*/
+.blue{
+    color: blue;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.gray{
+    color: dimgrey
+}
+.light{
+    font-weight: lighter;
+}
+.bold{
+    font-weight: bold;
+}
+/* 
+    PROGRESS BAR
+*/
+.text_bar{
+    padding:5px;
+    text-align: left; 
+    font-size: 10px;
+}
+.color_bar{
+    background-color: purple;
+}
+
+body{
+    /* background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%); */
+    background-image: linear-gradient( 135deg, #65FDF0 10%, #1D6FA3 100%);
+}
+
+/* 
+    IMAGES XP
+*/
+.image-container {
+  display: flex;      /* activa flexbox */
+  justify-content: center; /* centra horizontalmente */
+  align-items: center;     /* centra verticalmente */
+}

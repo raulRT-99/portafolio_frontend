@@ -1,0 +1,65 @@
+---
+import Header from '../../components/es/header.astro';
+import Footer from '../../components/footer.astro';
+
+---
+
+<Header />
+
+<!-- NAME | CONTACT -->
+<div class="container text-center" style="margin-top: 10px;">
+    <div class="row">
+        <div class="col">
+            <h1 class="blue">Raúl Reyes Torres</h1>
+            <h4 id="degree"></h4>
+        </div>
+        <div class="col spacing_small">
+            <h5 id="location"></h5>
+            <h5 id="cel"></h5>
+            <h5 id="email"></h5>
+        </div>
+    </div>
+    <!-- APTITUDES, SPEAKS | KNOWLEDGE | STUDIES -->
+    <div class="row" style="margin-top: 2em;">
+        <div class="col">
+            <div>
+                <h4 class="bold">APTITUDES</h4>
+                <h5 id="aptitudes"></h5>    
+            </div>
+            <div style="margin-top: 1em">
+                <h4 class="bold" id="langs"></h4>
+                <h5 id="speaks"></h5>
+            </div>
+        </div>
+        <div class="col">
+            <div>
+                <h4 class="bold" id="knows"></h4>
+                <h5 id="knowledge"></h5>
+            </div>
+        </div>
+        <div class="col">
+            <div class="spacing_very_small">
+                <h4 class="bold" id="study"></h4>
+                <p id="studies"></p>
+            </div>
+        </div>
+    </div>
+    <!-- ADDITIONAL | EXPERIENCE -->
+    <div class="row" style="margin-top: 2em;">
+        <div class="col">
+            <h4 class="bold" id="adds"></h4>
+            <p id="additional"></p>
+        </div>
+        <div class="col">
+            <h4 class="bold" id="exps"></h4>
+            <hp id="experience"></p>
+        </div>
+    </div>
+</div>
+<script src="../../scripts/cv.js"></script>
+
+<Footer />
+
+
+
+
