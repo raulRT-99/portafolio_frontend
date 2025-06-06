@@ -1,6 +1,7 @@
 ---
 import { getRelativeLocaleUrl } from 'astro:i18n';
 const currentLocale = Astro.url.pathname.split('/')[1] || 'es';
+import {BACKEND_URL} from '../../scripts/constants';
 ---
 
 
@@ -33,7 +34,7 @@ const currentLocale = Astro.url.pathname.split('/')[1] || 'es';
           <a class="nav-link" href={getRelativeLocaleUrl(currentLocale, 'additional')}><i class="fas fa-sm fa-folder-plus"></i> Adicional</a>
         </li>
       </ul>
-      <form action="http://localhost:5000/downloadcv/esp" method="get">
+      <form action={BACKEND_URL+"/downloadcv/esp"} method="get">
           <button type="submit" class="btn btn-outline-secondary"><i class="fa-solid fa-file-arrow-down"></i></button>
         </form>
         &nbsp;
